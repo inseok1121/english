@@ -1,0 +1,24 @@
+<html>
+
+<head>
+</head>
+
+<body>
+  <script src="https://code.jquery.com/jquery-latest.js"></script>
+  <script src="/english.js?v=<?=filemtime('./english.js')?>"></script>
+  <div id = "quiz">
+    <div id = "engsen">
+    </div>
+    <div id = "korsen">
+    </div>
+    <div id = "inputans">
+      <input type="text" id="answerbox">
+    </div>
+    <input type="button" id="checkans" onclick = "checkans()" value="Check"/>
+    <div id = "answer" >
+    </div>
+
+  </div>
+</body>
+
+</html>
